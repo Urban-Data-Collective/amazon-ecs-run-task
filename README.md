@@ -34,8 +34,15 @@ git push origin dev
 ```
 
 - All together:
+
 ```
 git tag -d dev && git push origin :refs/tags/dev && git tag -a dev -m "sandbox tag" && git push origin dev
+```
+
+- Tag v2
+
+```
+git tag -d v2 && git push origin :refs/tags/v2 && git tag -a v2 -m "v2 tag" && git push origin v2
 ```
 
 ## Amazon ECS "Run Task" Action for GitHub Actions
