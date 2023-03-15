@@ -19,6 +19,8 @@ const IGNORED_TASK_DEFINITION_ATTRIBUTES = [
 const WAIT_DEFAULT_DELAY_SEC = 5;
 const MAX_WAIT_MINUTES = 360;
 
+console.log("debug message");
+
 function isEmptyValue(value) {
   if (value === null || value === undefined || value === "") {
     return true;
