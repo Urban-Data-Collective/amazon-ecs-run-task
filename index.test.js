@@ -4,7 +4,14 @@ const fs = require("fs");
 const path = require("path");
 
 jest.mock("@actions/core");
-jest.mock("fs");
+
+// https://github.com/actions/toolkit/issues/1075#issuecomment-1120312405
+jest.mock("fs", () => ({
+  promises: {
+    access: jest.fn(),
+  },
+  readFileSync: jest.fn(),
+}));
 
 const mockEcsRegisterTaskDef = jest.fn();
 const mockEcsDescribeTasks = jest.fn();

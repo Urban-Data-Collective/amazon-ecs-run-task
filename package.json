@@ -1,6 +1,6 @@
 {
   "name": "amazon-ecs-run-task",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Runs a standalone Amazon ECS task",
   "main": "index.js",
   "scripts": {
@@ -20,14 +20,14 @@
     "Actions",
     "JavaScript"
   ],
-  "author": "Uturn Data Solutions",
+  "author": "Uturn Data Solutions (with fork from UrbanDataCollective)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/uturndata/amazon-ecs-run-task/issues"
   },
   "homepage": "https://github.com/uturndata/amazon-ecs-run-task",
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.10.0",
     "aws-sdk": "^2.1034.0",
     "yaml": "^1.10.2"
   },

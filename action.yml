@@ -1,5 +1,5 @@
 name: 'Amazon ECS "Run Task" Action'
-author: "Uturn Data Solutions (and InBrewJ)"
+author: "Uturn Data Solutions (and inbrewj-udc)"
 description: "Runs a standalone Amazon ECS task (EC2 or Fargate)"
 branding:
   icon: "cloud"
